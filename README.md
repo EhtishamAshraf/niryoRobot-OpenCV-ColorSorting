@@ -14,5 +14,7 @@ pip install pyniryo
 
 # Flowchart
 
+![FlowChart](FlowChart.png)
+
 ![FlowChart](https://user-images.githubusercontent.com/108629700/197865764-5dd690fd-3648-47b4-b128-cb0b4e0046ea.png)
 
