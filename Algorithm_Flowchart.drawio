@@ -1,0 +1,124 @@
+<mxfile host="app.diagrams.net" modified="2024-03-02T13:39:40.816Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="nspcvdjeJnHaysXKyqhi" version="24.0.0" type="device">
+  <diagram name="Page-1" id="Sk8KNkyjBvGMAJ3ps9qQ">
+    <mxGraphModel dx="680" dy="374" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="03L_3nWCG9XUNV5nq-WN-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="03L_3nWCG9XUNV5nq-WN-1" target="03L_3nWCG9XUNV5nq-WN-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="03L_3nWCG9XUNV5nq-WN-1" value="Capture an Image" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="200" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="03L_3nWCG9XUNV5nq-WN-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="03L_3nWCG9XUNV5nq-WN-2" target="03L_3nWCG9XUNV5nq-WN-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="03L_3nWCG9XUNV5nq-WN-2" value="Object present in the workspace" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="03L_3nWCG9XUNV5nq-WN-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="03L_3nWCG9XUNV5nq-WN-3" target="03L_3nWCG9XUNV5nq-WN-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="03L_3nWCG9XUNV5nq-WN-3" value="Detect Markers in the Image" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="03L_3nWCG9XUNV5nq-WN-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="03L_3nWCG9XUNV5nq-WN-4" target="03L_3nWCG9XUNV5nq-WN-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="03L_3nWCG9XUNV5nq-WN-4" value="Extract the workspace" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="360" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="03L_3nWCG9XUNV5nq-WN-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="03L_3nWCG9XUNV5nq-WN-5" target="03L_3nWCG9XUNV5nq-WN-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="03L_3nWCG9XUNV5nq-WN-5" value="Find Contours in the extracted workspace" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="360" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="03L_3nWCG9XUNV5nq-WN-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="03L_3nWCG9XUNV5nq-WN-6" target="03L_3nWCG9XUNV5nq-WN-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="03L_3nWCG9XUNV5nq-WN-6" value="Find Center points (cx, cy) of the Contour" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="520" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="03L_3nWCG9XUNV5nq-WN-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="03L_3nWCG9XUNV5nq-WN-7" target="03L_3nWCG9XUNV5nq-WN-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="03L_3nWCG9XUNV5nq-WN-7" value="Find position of the contour in the workspace (cx_rel, cy_rel)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="520" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="03L_3nWCG9XUNV5nq-WN-8" value="Find position of the contour w.r.t to the Robotic Arm" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+          <mxGeometry x="360" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="03L_3nWCG9XUNV5nq-WN-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="03L_3nWCG9XUNV5nq-WN-16" target="03L_3nWCG9XUNV5nq-WN-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="03L_3nWCG9XUNV5nq-WN-16" value="Color Thresholding the image to find the color of the square" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="170" y="120" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="03L_3nWCG9XUNV5nq-WN-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="03L_3nWCG9XUNV5nq-WN-17" target="03L_3nWCG9XUNV5nq-WN-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="03L_3nWCG9XUNV5nq-WN-17" value="Erode and Dilate the image to find the perfect contours" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="170" y="200" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="03L_3nWCG9XUNV5nq-WN-23" value="" style="endArrow=none;html=1;strokeWidth=2;rounded=1;curved=0;strokeColor=none;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="110" as="sourcePoint" />
+            <mxPoint x="160" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="03L_3nWCG9XUNV5nq-WN-24" value="" style="endArrow=none;html=1;rounded=1;curved=0;strokeColor=none;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="180" as="sourcePoint" />
+            <mxPoint x="340" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="03L_3nWCG9XUNV5nq-WN-25" value="" style="endArrow=none;html=1;rounded=1;curved=0;strokeColor=none;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="110" as="sourcePoint" />
+            <mxPoint x="340" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="03L_3nWCG9XUNV5nq-WN-26" value="" style="endArrow=none;html=1;rounded=1;curved=0;strokeColor=none;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="180" as="sourcePoint" />
+            <mxPoint x="340" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="03L_3nWCG9XUNV5nq-WN-27" value="" style="endArrow=none;html=1;rounded=0;curved=1;strokeColor=#0000CC;strokeWidth=2;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="110" as="sourcePoint" />
+            <mxPoint x="340" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="03L_3nWCG9XUNV5nq-WN-28" value="" style="endArrow=none;html=1;rounded=0;curved=1;strokeColor=#0000CC;strokeWidth=2;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="110" as="sourcePoint" />
+            <mxPoint x="162" y="259" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="03L_3nWCG9XUNV5nq-WN-29" value="" style="endArrow=none;html=1;rounded=0;curved=1;strokeColor=#0000CC;strokeWidth=2;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="260" as="sourcePoint" />
+            <mxPoint x="340" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="03L_3nWCG9XUNV5nq-WN-30" value="" style="endArrow=none;html=1;rounded=0;curved=1;strokeColor=#0000CC;strokeWidth=2;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="338" y="256" as="sourcePoint" />
+            <mxPoint x="340" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="03L_3nWCG9XUNV5nq-WN-31" value="&lt;b&gt;Color Detection&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="28" y="197" width="107" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="03L_3nWCG9XUNV5nq-WN-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.533;exitY=-0.038;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="03L_3nWCG9XUNV5nq-WN-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="298" y="228" as="sourcePoint" />
+            <mxPoint x="158" y="149" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
