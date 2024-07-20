@@ -12,6 +12,9 @@ Click on the image below to watch the youtube video of the simulation
 
 [![Watch the video](https://github.com/EhtishamAshraf/niryoRobot-OpenCV-ColorSorting/blob/main/1-Arm.jpeg)](https://youtu.be/g6igqMyEAQ4)
 
+## Hardware Setup
+The arm is equipped with a camera, and raspberry pi, and servo motors. The conveyor belt has an IR sensor which is used to detect the object's presence in the workspace.
+
 # Libraries required for the Simulator
 The robotic arm only required pyniryo library to operate.
 
@@ -40,3 +43,15 @@ The algorithm works as follows:
 
 The markers need to ber perfectly detected for the algorithm to work
 ![Detected Markers](Detected_Markers.jpg)
+
+Once the markers are detected perfectly, the workspace is extracted
+![Workspace Extraction](https://github.com/EhtishamAshraf/niryoRobot-OpenCV-ColorSorting/blob/main/Extracted_Workspace.jpg)
+
+After extracting the workspace, we can apply Image Processing techniques, to find the object and detect its color.
+An RGB Image containing different color objects as shown below
+![RGB Image](https://github.com/EhtishamAshraf/niryoRobot-OpenCV-ColorSorting/blob/main/RGB%20Images.png)
+We can use color thresholding to detect the objects in the image, then dilate the images to close small gaps in the objects.
+![Dilated Images](https://github.com/EhtishamAshraf/niryoRobot-OpenCV-ColorSorting/blob/main/DIlated%20Images.png)
+
+Then we can find the contours of the detected objects and subsequently determine the centroid of each object. Once the centroid is identified, the position of the object within the workspace can be calculated. Using pyniryo functions, the position of the object relative to the NED2 Arm coordinate system can then be determined.
+![Contours and Centroid Detection](https://github.com/EhtishamAshraf/niryoRobot-OpenCV-ColorSorting/blob/main/Contours_with_Centroids.png)
