@@ -8,7 +8,7 @@ Refer to the following link of Niryo Robot's documentation: [NED2 Documentation]
 
 
 ## Demo Video
-Click on the image below to watch the youtube video of the simulation
+Click on the image below to watch the youtube video of the hardware
 
 [![Watch the video](https://github.com/EhtishamAshraf/niryoRobot-OpenCV-ColorSorting/blob/main/1-Arm.jpeg)](https://youtu.be/g6igqMyEAQ4)
 
